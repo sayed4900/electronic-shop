@@ -227,6 +227,10 @@ hr {
 footer {
     background-color: #222222;
 }
+.logo2 {
+    border-radius: 50%;
+    width: 100px;
+}
 
 footer h5 {
     color: #d8d8d8;
@@ -242,5 +246,76 @@ footer li a {
 }
 footer li a:hover {
     font-size: 0.8rem;
-    color: #999;
+    color: #d8d8dd;
+}
+
+/* SHOP */
+/* #featured > div.row.mx-auto.container > nav > ul > li.page-item.active > a {
+    background-color: black;
+}
+#featured > div.row.mx-auto.container > nav > ul > li:hover > a {
+    background-color: coral;
+    color: #fff;
+}
+
+.pagination a {
+    color: black;
+} */
+
+/* PAGNITION ON SHOP */
+.pagination-list {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #383838;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+.ul-pagination {
+    margin: 20px 30px;
+}
+.ul-pagination li {
+    display: inline-block;
+
+    margin: 0 10px;
+
+    background-color: #ccc;
+    color: #fff;
+    width: 45px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.btn1,
+.btn2 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #383838;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1 img {
+    width: 24px;
+    margin-right: 15px;
+}
+.btn2 img {
+    width: 24px;
+    margin-left: 15px;
+    transform: rotate(180deg);
+}
+
+ul li.active {
+    color: #fff;
+    background-image: linear-gradient(coral, coral);
+    background-repeat: no-repeat;
 }
