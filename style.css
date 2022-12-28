@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;600;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+h6 {
+    color: #d8d8d8;
+}
+
+button {
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a3833;
+}
+
+/* HEADER */
+.logo {
+    width: 100px;
+    border-radius: 25%;
+}
+.navbar {
+    font-size: 20px;
+    top: 0;
+    /* left: 0; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar i:active {
+    color: coral;
+}
+
+.navbar i {
+    padding: 0 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* MOBILE NAVIGATION */
+
+.navbar-light .navbar-toggler {
+    /* make icon bar with no border or outline */
+    outline: none;
+    border: none;
+}
+
+#bar {
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#bar:hover,
+#bar:active {
+    color: #fff;
+}
+
+/* HERO SECTION */
+
+#home {
+    background-image: url("img/back2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* background-position: top center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home h1 span {
+    color: coral;
+}
+
+#home h1,
+h5,
+p {
+    color: rgb(235, 224, 220);
+}
+
+/* NEW */
+
+#new .one img {
+    /* width: 15.625rem; 250px; */
+    height: 70%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#new .one .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70%;
+    transition: 0.3s ease;
+}
+
+#new .one:hover .details {
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.7);
+}
+
+#new .one .details button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5px;
+    transform: translateY(20px);
+    margin-left: 25px;
+    transition: 0.3s ease;
+}
+
+#new .one .details button:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* Featured */
+
+#featured h5,
+#featured p {
+    color: #1d1d1d;
+}
+
+#featured img {
+    width: 50%;
+    height: 50%;
+}
+
+/* PRODUCTS */
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img {
+    transition: 0.3s all;
+}
+.product:hover img {
+    opacity: 0.7;
+}
+.product .buy-btn {
+    background-color: coral;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+    background-color: coral;
+}
+hr {
+    width: 200px;
+    height: 5px;
+    background-color: coral;
+}
+.star {
+    padding: 10px 0;
+}
+.star i {
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222222;
+}
+
+footer h5 {
+    color: #d8d8d8;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+footer li {
+    padding-bottom: 4px;
+}
+footer li a {
+    font-size: 0.8rem;
+    color: #999;
+}
+footer li a:hover {
+    font-size: 0.8rem;
+    color: #999;
+}
